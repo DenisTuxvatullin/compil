@@ -1,0 +1,9 @@
+def main()
+{
+  if read%() >= 0
+  {
+    printn("positive")
+  } else {
+    printn("negative")
+  }
+}

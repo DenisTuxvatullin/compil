@@ -1,0 +1,10 @@
+def main()
+{
+  printn("Enter 0 to exit")
+  
+  do
+  {
+    n% = read%()
+    printn("You entered: " + n$)
+  } while n% <> 0
+}

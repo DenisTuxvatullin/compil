@@ -1,0 +1,10 @@
+def main()
+{
+  print("Enter a: ")
+  a% = read%()
+  print("Enter b: ")
+  b% = read%()
+  result% = a% + b%
+  printn("a + b = " + result$)
+  return
+}

@@ -1,0 +1,6 @@
+def main()
+{
+  s$ = "Test12345"
+  printn(substr$(s$, 0, 4))
+  printn(substr$(s$, 4, 1))
+}

@@ -1,0 +1,8 @@
+def main()
+{
+  dim% = 10
+  arr1d$[] = new array$(10)
+  arr2d#[][] = new array#(dim%, 10)
+  arr3d%[][][] = new array%(2, 3, 4)
+  arr4d![][][][] = new array!(2, 2, 2, 2)
+}

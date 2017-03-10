@@ -1,0 +1,7 @@
+def main()
+{
+  a! = true!
+  printn(a$)
+  a! = not a!
+  printn(a$)
+}

@@ -1,0 +1,7 @@
+def main()
+{
+  zero# = 0.0
+  n# = 0.0 / zero#
+  n# = ~n# / 2.0
+  printn(n$)
+}

@@ -1,0 +1,7 @@
+def main()
+{
+  arr$[][] = new array$(10, 5)
+  
+  printn(length$(arr$[][], 0))
+  printn(length$(arr$[][], 1))
+}

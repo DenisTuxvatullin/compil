@@ -1,0 +1,12 @@
+def test(e%[])
+{
+  a% = e%[3] + 1
+  printn(a$)
+}
+
+def main()
+{
+  arr%[] = new array%(10)
+  printn(arr$[0])
+  test(arr%[])
+}

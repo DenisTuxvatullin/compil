@@ -1,0 +1,20 @@
+def main()
+{
+  for i% = 1 to 10
+  {
+    print(i$ + " ")
+  }
+  printn("")
+  
+  for i% = 1 to 10 step 3
+  {
+    print(i$ + " ")
+  }
+  printn("")
+  
+  for j# = ~5.0 to 10.0 step 3.5
+  {
+    print(j$ + " ")
+  }
+  printn("")
+}

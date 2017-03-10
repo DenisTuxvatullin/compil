@@ -1,0 +1,12 @@
+const phrase$ = "Exit"
+
+def main()
+{
+  printn("Enter " + phrase$ + " to exit")
+  
+  do
+  {
+    s$ = read$()
+    printn("You entered: " + s$)
+  } while s$ <> phrase$
+}

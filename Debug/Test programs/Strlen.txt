@@ -1,0 +1,10 @@
+def main()
+{
+  str$ = "AbCd1234"
+  printn(strlen$(str$))
+  
+  for i% = 0 to strlen%(str$) - 1
+  {
+    printn(substr$(str$, i%, 1))
+  }
+}
