@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0B110C0A-3BE9-4C7D-9720-AE1FA161DE8D}</ProjectGuid>
     <RootNamespace>Backslash</RootNamespace>
+    <ProjectName>myParser</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

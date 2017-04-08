@@ -5,11 +5,6 @@
 #include "Exception.h"
 #include "Parser.h"
 #include "AssemblerTest.h"
-//#include "GeneratorVisitor.h"
-//#include "Ast.h"
-//#include "PrintVisitor.h"
-
-//#define DEBUG_MODE
 
 using namespace std;
 
@@ -46,14 +41,15 @@ void Compile(const string &filePath)
 
 		}
 	}
+	shared_ptr<IAst> ast = Parse(tokens);
 }
 
 int main(int argc, char *argv[])
 {
 
 	string file = "Adder.txt" ;
-	cout << "Input file: ";
-	cin >> file;
+	//cout << "Input file: ";
+	//cin >> file;
 	InitOperatorMap();
 	try
 	{	

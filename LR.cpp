@@ -2,6 +2,7 @@
 #include "Parser.h"
 #include "IAst.h"
 
+/**/
 VarDeclLR::VarDeclLR()
 	: m_index(0)
 {

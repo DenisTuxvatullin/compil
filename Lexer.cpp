@@ -86,7 +86,6 @@ Token Lexer::ParseFloat(InputStream &is)
 		return Token::TokenError(is, is.Tell());
 	}
 
-	// is.GetChar() == '.'
 	numAccum += '.';
 	is.Forward();
 

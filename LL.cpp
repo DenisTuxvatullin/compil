@@ -8,7 +8,6 @@
 
 using namespace std;
 
-
 int ParsingTable[7][13] = 
 {
 	//"kw_new","kw_array","id","kw_dict","(",")","!","%","#","$","[","]","$"

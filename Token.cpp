@@ -132,7 +132,7 @@ void Token::Print() const
 		break;
 	}
 
-	cout << " line " << GetLineNumber(); //<< ":" << GetOffset() << " in line '" << GetLine() << "'";
+	cout << " line " << GetLineNumber();
 }
 
 bool Token::IsError() const
